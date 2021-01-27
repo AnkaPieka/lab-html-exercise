@@ -1,46 +1,50 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 header > div {
-    padding: 0 25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid lightgray;
-  }
-
-
-nav{
-    width: 600px;
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
 }
-nav ul{
-    list-style:none;
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
+
+nav {
+  width: 600px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav a {
-    text-decoration: none;
-    color: black;
-  }
+  text-decoration: none;
+  color: black;
+}
 
 nav span {
-    display: flex;
-    align-content:left;
+  display: flex;
+  align-content: left;
 }
-  
+
 /*header low bar*/
 
 .blackHeart {
-    width: 20px;
-    margin-right: 1rem;
-  }
+  width: 20px;
+  margin-right: 1rem;
+}
 
-.npm-logo{
+.npm-logo {
   height: 20px;
   margin: 0 20px 0 0;
 }
@@ -50,19 +54,19 @@ nav span {
   padding: 7px;
 }
 
-.greyBackground{
-  background-color: rgba(0,0,0,.05);
+.greyBackground {
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
-header form{
+header form {
   display: flex;
-  align-items:center;
+  align-items: center;
 }
 
 header input {
-  border:none;
+  border: none;
   height: 25px;
-  width: 1060px;
+  width: 50vw;
   margin: 5px 0px;
   padding: 5px;
   font-family: Poppins;
@@ -73,54 +77,52 @@ header input {
   color: white;
 }
 
-header button{ 
- border: 1px solid rgb(204, 204, 204);
- padding: 7px 10px;
- margin-right: 5px;
- height:40px;
- width: 80px;
- font-family: Poppins;
+header button {
+  border: 1px solid rgb(204, 204, 204);
+  padding: 7px 10px;
+  margin-right: 5px;
+  height: 40px;
+  width: 80px;
+  font-family: Poppins;
 }
 
-header > div > a{
+header > div > a {
   text-decoration: none;
   color: rgb(122, 122, 122);
 }
 
-header .join-ul{
+header .join-ul {
   border: 1.5px solid rgb(122, 122, 122);
   margin: 0 5px 0 30px;
   padding: 3px 15px;
 }
-header .log-in{
+header .log-in {
   padding: 3px 15px;
-  border: 1px solid rgba(255, 255, 255,1);
+  border: 1px solid rgba(255, 255, 255, 1);
 }
 
 /*Section 1*/
 
-#tool-presentation{
+#tool-presentation {
   display: flex;
-  justify-content:space-evenly;
-  align-items:center;
-  flex-direction:column;
-  height:600px;
-  width:auto;
-  background-color: rgba(232,217,217,.3);
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+  width: auto;
+  background-color: rgba(232, 217, 217, 0.3);
 }
 
-#tool-presentation h1{
+#tool-presentation h1 {
   font-size: 80px;
   text-align: center;
-  display:flex;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
-#tool-presentation article{
-  display:flex;
+#tool-presentation article {
   justify-content: center;
-  text-align:center;
+  text-align: center;
   width: 500px;
   font-size: 20px;
   padding: 5px;
@@ -128,115 +130,108 @@ header .log-in{
 }
 
 #tool-presentation > div {
-  display:flex;
-  flex-direction: row;
-  align-items:center;
+  display: flex;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
   font-size: 20px;
   width: 500px;
 }
 
-#tool-presentation a{
-  text-decoration:none;
+#tool-presentation a {
+  text-decoration: none;
   padding: 10px 50px;
   margin: 0;
 }
 
-.see-plans a{
-  color : white;
-  background-color: #FB3B49;
-  display:flex;
+.see-plans a {
+  color: white;
+  background-color: #fb3b49;
+  display: flex;
   flex-wrap: nowrap;
-  box-shadow: 8px 8px 0 rgba(251,59,73,.2); 
+  box-shadow: 8px 8px 0 rgba(251, 59, 73, 0.2);
 }
 
-.join-for-free a{
-  color:black;
-  display:flex;
+.join-for-free a {
+  color: black;
+  display: flex;
   flex-wrap: nowrap;
 }
 
 /*Section 2*/
 
 #why-get-an-org {
-    display: flex;
-    justify-items:space-evenly;
-    align-items:center;
-    flex-direction:column;
-    height:600px;
-    width:auto;
+  display: flex;
+  justify-items: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+  width: auto;
 }
 
-#why-get-an-org img{
+#why-get-an-org img {
   height: 200px;
   margin: 50px 0 30px 0;
 }
 
-#why-get-an-org h2{
+#why-get-an-org h2 {
   text-align: center;
   font-size: 1.7em;
   font-style: italic;
   margin: 20px 0 10px 0;
   padding: 0 40px;
-  background-color: rgba(255,204,53,.4);
-  transform: skew(9deg,0deg);
+  background-color: rgba(255, 204, 53, 0.4);
+  transform: skew(9deg, 0deg);
 }
 
 #why-get-an-org article {
   text-align: center;
   font-size: 0.8em;
   margin: 20px;
+  width: 75vw;
 }
 
-/* section 3 */
+/*Section 3*/
 
 #org-advantages {
   height: 600px;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-#org-advantages img{
+#org-advantages img {
   height: 25px;
   padding: 5px;
 }
 
-#org-advantages h3{
-  color: #ED1C24;
+#org-advantages h3 {
+  color: #ed1c24;
 }
 
-#org-advantages article{
+#org-advantages article {
   padding: 5px;
 }
 
 .four-boxes {
-  display:flex;
-  flex-direction: row;
-  justify-content:space-between ;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-.four-boxes div{
+.four-boxes div {
   width: 300px;
   height: 230px;
   margin: 10px;
-  padding:10px;
+  padding: 10px;
 }
 
 .create-btn {
-  display:flex;
-  flex-direction: row;
-  align-items:center;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: flex;
+  justify-content: center;
   margin: 10px;
-  
 }
-.create-btn a{
-  color:white;
+.create-btn a {
+  color: white;
   background: black;
   text-decoration: none;
   padding: 10px 100px;
   margin: 30px;
-  box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+  box-shadow: 8px 8px 0 rgba(128, 83, 35, 0.2);
 }
